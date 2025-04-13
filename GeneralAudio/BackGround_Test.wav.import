@@ -3,12 +3,12 @@
 importer="wav"
 type="AudioStreamWAV"
 uid="uid://bqgtx35e41gm2"
-path="res://.godot/imported/BackGround_Test.wav-720768a52ff187d49f872fde34c71615.sample"
+path="res://.godot/imported/BackGround_Test.wav-c472f524208c63d54d109e465781743f.sample"
 
 [deps]
 
-source_file="res://Player/Audio/BackGround_Test.wav"
-dest_files=["res://.godot/imported/BackGround_Test.wav-720768a52ff187d49f872fde34c71615.sample"]
+source_file="res://GeneralAudio/BackGround_Test.wav"
+dest_files=["res://.godot/imported/BackGround_Test.wav-c472f524208c63d54d109e465781743f.sample"]
 
 [params]
 
@@ -18,7 +18,7 @@ force/max_rate=false
 force/max_rate_hz=44100
 edit/trim=false
 edit/normalize=false
-edit/loop_mode=0
+edit/loop_mode=2
 edit/loop_begin=0
 edit/loop_end=-1
 compress/mode=2

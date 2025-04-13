@@ -6,10 +6,6 @@ static var player : Player
 func _ready() -> void:
 	pass # Replace with function body.
 
-
-
-
-
 ##What happend when player enter this state
 func Enter() -> void:
 	pass
