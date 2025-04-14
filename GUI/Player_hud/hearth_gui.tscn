@@ -1,0 +1,14 @@
+[gd_scene load_steps=2 format=3 uid="uid://dbrnrwuxogfho"]
+
+[ext_resource type="Texture2D" uid="uid://ciple6krr0112" path="res://GUI/Player_hud/gui-health.png" id="1_ogc48"]
+
+[node name="Hearth" type="Control"]
+custom_minimum_size = Vector2(9, 9)
+layout_mode = 3
+anchors_preset = 0
+
+[node name="Sprite2D" type="Sprite2D" parent="."]
+texture = ExtResource("1_ogc48")
+centered = false
+hframes = 7
+vframes = 2
