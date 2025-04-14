@@ -1,9 +1,11 @@
-[gd_scene load_steps=3 format=3 uid="uid://0cs3lq15u5xs"]
+[gd_scene load_steps=4 format=3 uid="uid://0cs3lq15u5xs"]
 
+[ext_resource type="Script" uid="uid://gdrlm8tesja0" path="res://GUI/Player_hud/player_hud.gd" id="1_1o6bj"]
 [ext_resource type="Texture2D" uid="uid://ciple6krr0112" path="res://GUI/Player_hud/gui-health.png" id="1_2wuyl"]
-[ext_resource type="PackedScene" uid="uid://dbrnrwuxogfho" path="res://GUI/Player_hud/hearth_gui.tscn" id="2_1o6bj"]
+[ext_resource type="PackedScene" uid="uid://dbrnrwuxogfho" path="res://GUI/Player_hud/heart_gui.tscn" id="2_1o6bj"]
 
 [node name="PlayerHud" type="CanvasLayer"]
+script = ExtResource("1_1o6bj")
 
 [node name="Control" type="Control" parent="."]
 layout_mode = 3

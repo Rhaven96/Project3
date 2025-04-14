@@ -87,6 +87,7 @@ func _take_damage(hurt_box : HurtBox) -> void:
 	if invulnerable == true:
 		return
 	update_player_hp( -hurt_box.damage)
+	# if player gets hit we update visual gui
 	if player_hp > 0:
 		player_damaged.emit(hurt_box)
 	else :
@@ -97,6 +98,7 @@ func _take_damage(hurt_box : HurtBox) -> void:
 
 func update_player_hp(delta : int) -> void:
 	player_hp = clampi(player_hp + delta , 0 , player_max_hp)
+	PlayerHud.update_hp(player_hp, player_max_hp)
 	pass
 
 
