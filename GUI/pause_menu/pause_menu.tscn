@@ -64,8 +64,6 @@ grow_vertical = 0
 size_flags_horizontal = 4
 size_flags_vertical = 1
 theme_override_font_sizes/font_size = 10
-text = "Hello World...
-dwdawdd"
 horizontal_alignment = 1
 autowrap_mode = 2
 
@@ -134,3 +132,6 @@ layout_mode = 2
 
 [node name="InventorySlot6" parent="Control/PanelContainer/GridContainer" instance=ExtResource("3_rsqrg")]
 layout_mode = 2
+
+[node name="AudioStreamPlayer" type="AudioStreamPlayer" parent="Control"]
+max_polyphony = 4

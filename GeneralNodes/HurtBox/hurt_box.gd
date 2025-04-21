@@ -1,7 +1,7 @@
 class_name HurtBox extends Area2D
 
 @export var damage: int = 1
-@export var hur_tbox : HurtBox
+@export var hurt_box : HurtBox
 
 # Called when the node enters the scene tree for the first time.
 func _ready() -> void:
