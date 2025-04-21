@@ -16,6 +16,11 @@ func add_player_instance() ->void:
 	add_child(player)
 	pass
 
+func set_health ( hp : int , max_hp : int ) -> void:
+	player.player_max_hp = max_hp
+	player.player_hp = hp
+	player.update_player_hp(0)
+	pass
 
 func set_player_spawn_point( _new_pos : Vector2) -> void:
 	player.global_position = _new_pos

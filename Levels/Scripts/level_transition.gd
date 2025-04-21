@@ -31,8 +31,10 @@ func _ready() -> void:
 		return
 	
 	monitoring = false
-	_place_player()
 	
+	
+	_place_player()
+	#wait for level to load before player is loaded
 	await  LevelManager.level_loaded
 	
 	monitoring = true
@@ -99,3 +101,5 @@ func _update_area() ->void:
 func _snap_to_grid() -> void:
 	position.x = round(position.x /16 ) * 16
 	position.y = round(position.y /16 ) * 16
+	
+	
