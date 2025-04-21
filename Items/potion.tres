@@ -1,0 +1,16 @@
+[gd_resource type="Resource" script_class="ItemData" load_steps=4 format=3 uid="uid://fxyqkjlmydtv"]
+
+[ext_resource type="Script" uid="uid://crvdqg5blqgch" path="res://Items/Scripts/item_data.gd" id="1_hw0jr"]
+[ext_resource type="Texture2D" uid="uid://b2v7pikxblqmj" path="res://Items/Sprites/items.png" id="2_5vqjr"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_t8xv6"]
+atlas = ExtResource("2_5vqjr")
+region = Rect2(32, 0, 32, 32)
+
+[resource]
+script = ExtResource("1_hw0jr")
+name = "Potion"
+description = "It taste... sticky ..yuck!!
+It heals you too!!!"
+texture = SubResource("AtlasTexture_t8xv6")
+metadata/_custom_type_script = "uid://crvdqg5blqgch"
